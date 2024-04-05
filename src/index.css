@@ -20,20 +20,20 @@ body {
 }
 
 .todo-container {
-  width: calc(100% - 40px); /* Adjust for padding */
-  max-width: 500px; /* Adjust as needed */
+  width: 90%; /* Adjust for padding */
+  max-width: 800px; /* Adjusted to fit desktop width */
   margin: 0 auto; /* Center the container */
-  padding: 0px 20px 0px 20px;
+  padding: 0px 5%; /* Adjusted padding */
   overflow-y: auto; /* Enable vertical scrolling */
   max-height: 80vh; /* Limit height to allow scrolling */
 }
 
 .todo-search {
   width: 100%;
-  max-width: 500px; /* Adjust as needed */
+  max-width: 800px; /* Adjusted to fit desktop width */
   background-color: white;
   border-radius: 10px;
-  padding: 20px 10px 10px 10px; /* Adjusted padding */
+  padding: 30px 20px 20px 20px; /* Adjusted padding */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,7 +47,7 @@ body {
 
 .todo-search form {
   width: 100%;
-  max-width: 500px; /* Adjust as needed */
+  max-width: 800px; /* Adjusted to fit desktop width */
   height: auto; /* Auto height */
   display: flex;
   align-items: center;
@@ -57,7 +57,7 @@ body {
 
 .todo-list {
   width: 100%;
-  max-width: 500px; /* Adjust as needed */
+  max-width: 800px; /* Adjusted to fit desktop width */
   background-color: white;
   padding-top: 10px !important;
   border-radius: 10px;
@@ -69,7 +69,7 @@ body {
 select {
   border: 1px solid silver;
   height: 50px;
-  padding: 10px;
+  padding: 20px 10px 10px; /* Adjusted padding */
   width: calc(100% - 20px); /* Adjust for padding */
   border-radius: 10px;
   margin-bottom: 10px; /* Add space between inputs */
@@ -97,6 +97,7 @@ select:focus {
 
 .todo-list-item {
   width: 100%;
+  max-width: 800px; /* Adjusted to fit desktop width */
   height: 50px;
   border-bottom: 1px solid silver;
   margin-top: 10px;
