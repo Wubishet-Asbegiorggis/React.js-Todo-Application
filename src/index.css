@@ -100,7 +100,8 @@ select:focus {
   max-width: 800px; /* Adjusted to fit desktop width */
   height: 50px;
   border-bottom: 1px solid silver;
-  margin-top: 10px;
+  margin-top: 20px; /* Increase margin-top to create space between tasks */
+  margin-bottom: 20px; /* Increase margin-bottom to create space between tasks */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -226,4 +227,3 @@ select:focus {
   background: #a459f4;
   margin-right: 10px;
 }
-/*    */
